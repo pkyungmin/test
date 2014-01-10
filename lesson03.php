@@ -11,21 +11,9 @@
  * @license
  * @since */
 
-$messages = '';
-$task = filter_input ( INPUT_POST, 'task', FILTER_SANITIZE_STRING );
-if ($task == 'product.maint') :
-	$results = maintProduct ();
-	$a == true;
-	$messages .= $results;
-endif;
+$employee = array('name1' => 'sally meyers', 'name2' => 'george smith', 'name3' => 'park jongsung', 'name4' => 'peter hengel');
 
-if ('contact.maint') :
-	$results = maintContact ();
-	$messages .= $results;
-endif;
+echo $employee['name3'];
 
-if ('category.maint') :
-	$results = maintCategory ();
-	$messages .= $results;
-endif;
+
 ?>
