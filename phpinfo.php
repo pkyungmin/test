@@ -3,5 +3,5 @@
 phpinfo();
 
 echo 'hello ^^';
-
+echo 'release comment';
 ?>
