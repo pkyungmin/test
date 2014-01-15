@@ -2,6 +2,6 @@
 
 phpinfo();
 
-echo 'hello ?';
+echo 'hello ^^';
 
 ?>
